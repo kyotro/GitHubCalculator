@@ -10,13 +10,17 @@
         <Button x:Name="btnAdd" Content="+" HorizontalAlignment="Left" Margin="119,62,0,0" VerticalAlignment="Top" Height="20" Width="40" Click="btnAdd_Click"/>
         <TextBox x:Name="txtAdd1" HorizontalAlignment="Left" Margin="59,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20" RenderTransformOrigin="2.241,0.499"/>
         <Label Content="=" HorizontalAlignment="Left" Margin="224,59,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="159,62,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="247,59,0,0" VerticalAlignment="Top" Width="86"/>
+        <Button x:Name="btnMin" Content="-" HorizontalAlignment="Left" Margin="119,93,0,0" VerticalAlignment="Top" Height="20" Width="40" Click="btnMin_Click" />
+        <TextBox x:Name="txtMinInput1" HorizontalAlignment="Left" Margin="59,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
         <TextBox x:Name="txtAdd2" HorizontalAlignment="Left" Margin="159,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
         <Label x:Name="lblResultAdd" Content="" HorizontalAlignment="Left" Margin="247,59,0,0" VerticalAlignment="Top" Width="86"/>
         <Button Content="-" HorizontalAlignment="Left" Margin="119,93,0,0" VerticalAlignment="Top" Height="20" Width="40"/>
         <TextBox HorizontalAlignment="Left" Margin="59,93,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
         <Label Content="=" HorizontalAlignment="Left" Margin="224,90,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="159,93,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
-        <Label Content="" HorizontalAlignment="Left" Margin="247,90,0,0" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="txtMinInput2" HorizontalAlignment="Left" Margin="159,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
+        <Label x:Name="lblMinResult" Content="" HorizontalAlignment="Left" Margin="247,90,0,0" VerticalAlignment="Top" Width="86"/>
         <Button Content="*" HorizontalAlignment="Left" Margin="119,124,0,0" VerticalAlignment="Top" Height="20" Width="40"/>
         <TextBox HorizontalAlignment="Left" Margin="59,124,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
         <Label Content="=" HorizontalAlignment="Left" Margin="224,121,0,0" VerticalAlignment="Top"/>

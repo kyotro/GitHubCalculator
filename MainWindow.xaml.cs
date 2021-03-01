@@ -25,6 +25,15 @@ namespace GitHubCalculator
             InitializeComponent();
         }
 
+        private void btnMin_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtMinInput1.Text != "" && txtMinInput2.Text != "")
+            {
+                int number1 = Convert.ToInt32(txtMinInput1.Text), number2 = Convert.ToInt32(txtMinInput2.Text);
+                lblMinResult.Content = number1 - number2;
+            }
+        }
+
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             string nr1 = txtAdd1.Text;
