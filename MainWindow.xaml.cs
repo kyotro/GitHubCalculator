@@ -24,5 +24,12 @@ namespace GitHubCalculator
         {
             InitializeComponent();
         }
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            string nr1 = txtAdd1.Text;
+            string nr2 = txtAdd2.Text;
+            lblResultAdd.Content = Convert.ToInt32(nr1) + Convert.ToInt32(nr2);
+        }
     }
 }
