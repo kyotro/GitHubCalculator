@@ -24,5 +24,15 @@ namespace GitHubCalculator
         {
             InitializeComponent();
         }
+        private void btnMultiply_Click(object sender, RoutedEventArgs e)
+        {
+            int iNumber1 = Convert.ToInt32(txtMultiply1.Text);
+            int iNumber2 = Convert.ToInt32(txtMultiply2.Text);
+
+            lblResult.Content = iNumber1 * iNumber2;
+        }
+
+
+
     }
 }
