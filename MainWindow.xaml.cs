@@ -24,5 +24,15 @@ namespace GitHubCalculator
         {
             InitializeComponent();
         }
+
+        private void btnDivide_Click(object sender, RoutedEventArgs e)
+        {
+            int num1 = int.Parse(textDiv1.Text);
+            int num2 = int.Parse(textDiv2.Text);
+
+            int result = num1 / num2;
+            lblDivResult.Content = result.ToString();
+        }
+        
     }
 }
