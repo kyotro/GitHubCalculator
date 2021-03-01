@@ -24,5 +24,15 @@ namespace GitHubCalculator
         {
             InitializeComponent();
         }
+
+        private void btnProcent_Click(object sender, RoutedEventArgs e)
+        {
+            int iNumberOne = Convert.ToInt32(txtNumberOne.Text);
+            int iNumberTwo = Convert.ToInt32(txtNumberTwo.Text);
+            int iResult = iNumberOne + iNumberTwo / 100;
+
+
+            lblProcent.Content = iResult.ToString();
+        }
     }
 }
